@@ -85,4 +85,8 @@ body {
   font-size: 45px;
   color: #8b5943;
   font-weight: 900;
+}
+#about .intro-ish h2 {
+  font-weight: 700;
+  color: #a68863;
 }/*# sourceMappingURL=style.css.map */
