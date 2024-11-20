@@ -1,101 +1,44 @@
-body, h1, h2, h3, p, ul{
-    margin:0;
-    padding:0;
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
 }
 
-html{
-    scroll-behavior: smooth;
+p, a, div, li {
+  font-family: "doto";
 }
 
-body{
-    font-family: arial, sans-serif;
-    background-color: #f8f8f8; 
-    color:#333;
+html {
+  scroll-behavior: smooth;
 }
 
-.container{
-    max-width:1200px;
-    margin:0 auto;
-    padding:20px;
+body {
+  background-color: #e3e1e6;
+  position: relative;
 }
 
-header {
-    background-color:burlywood;
-    color: #333;
-    padding:20px 0;
-    box-shadow:0px 2px 5px rgba(0, 0, 0, 0.2);
+.navbar {
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-nav ul{
-    list-style-type: none;
+.navbar h1 {
+  color: #8b5943;
+  font-family: "doto";
+  font-weight: 900;
+  font-size: 35px;
+  margin-left: 10px;
 }
-
-nav ul li{
-    display: inline;
-    padding: 20px;
+.navbar .navlinks {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
 }
-
-nav a{
-    text-decoration: none;
-    color: beige;
-    font-weight:bold;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #ff9900;
-}
-
-
-section{
-    padding: 40px 0;
-}
-
-.project {
-    background-color: beige;
-    padding: 20px;
-    margin: 20px 0;
-    border: 1px solid beige;
-    border-radius: 5px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.btn{
-    background-color: burlywood;
-    border:none;
-    padding: 10px;
-    margin-top:14px;
-    border-radius:5px;
-    font-weight: bold;
-
-}
-
-.btn:hover{
-    background-color: #ff9900;
-}
-
-footer{
-    background-color:#333;
-    color:burlywood;
-    text-align:center;
-}
-
-@media(max-width:768px) {
-
-    h1{
-        margin-left:70px;
-    }
-    header {
-        padding:10px 0;
-    }
-
-    nav ul {
-        text-align: center;
-        padding-top: 10px;
-    }
-
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
-}
+.navbar li a {
+  color: #8b5943;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 1rem;
+}/*# sourceMappingURL=style.css.map */
