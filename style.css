@@ -18,27 +18,71 @@ body {
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   display: flex;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 10px;
 }
-.navbar h1 {
+.navbar .chimdi {
   color: #8b5943;
   font-family: "doto";
   font-weight: 900;
   font-size: 35px;
-  margin-left: 10px;
+  margin-left: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  border-right: 2px solid #8b5943;
+  animation: typing 4s steps(20, end) forwards, blink 0.7s step-end infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 20ch;
+  }
+}
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #8b5943;
+  }
 }
 .navbar .navlinks {
   display: flex;
   list-style: none;
   gap: 1rem;
+  margin-right: 20px;
 }
 .navbar li a {
   color: #8b5943;
   font-weight: 900;
   text-decoration: none;
   font-size: 1rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.navbar li:hover {
+  transform: scale(1.1);
+}
+
+#about .intro-ish {
+  text-align: center;
+  margin-top: 75px;
+}
+#about .intro-ish h1 {
+  font-size: 45px;
+  color: #8b5943;
+  font-weight: 900;
 }/*# sourceMappingURL=style.css.map */
