@@ -3,6 +3,7 @@
 *{
     padding:0;
     margin:0;
+    box-sizing: border-box;
 }
 
 p,a,div,li{
@@ -16,7 +17,8 @@ html{
 body{
     background-color: #e3e1e6;
     position:relative;
-    
+    width:100%;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -76,23 +78,28 @@ body{
     
 }
 
-#about{
-    .intro-ish{
-        text-align: center;
-        margin-top:200px;
-        margin-bottom:100px;
-        h1{
-            font-size:45px;
-            color:#8b5943;
-            font-weight: 900;
-            line-height: 200px;
-        }
-        h2{
-            font-weight: 700;
-            color:#a68863;
-            font-size:30px;
-        }
+.intro-ish{
+    text-align: center;
+    margin-top:200px;
+    margin-bottom:100px;
+        
+    h1{
+        font-size:45px;
+        color:#8b5943;
+        font-weight: 900;
+        line-height: 200px;
     }
+    h2{
+        font-weight: 700;
+        color:#a68863;
+        font-size:30px;
+    }
+}
+
+#about{
+    scroll-margin-top:80px;
+    align-items:center;
+    
     .about-me{
         margin:300px auto;
         padding:30px 30px;
