@@ -115,7 +115,40 @@ body{
             font-size:20px;
             margin: 0 30px 20px 90px;
             line-height: 30px;
+            
         }
        
+    }
+}
+
+#skills{
+    align-items:center;
+    scroll-margin-top:80px;
+    .skillset{
+        h2{
+            color:#8b5943;
+            font-size: 35px;
+            font-weight:900;
+            text-align: center;
+        }
+        p{
+            margin-top:40px;
+            font-weight:800;
+            font-size:20px;
+            //margin: 0 30px 20px 90px;
+            line-height: 30px;
+            text-align: center;
+            
+        }
+    }
+    .skill-logo{
+        margin-top:50px;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding:40px;
+        margin-left:30px;
+        gap:30px;
+        justify-content: space-between;
+
     }
 }
