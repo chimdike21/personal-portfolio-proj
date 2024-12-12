@@ -137,11 +137,40 @@ body {
   text-align: center;
 }
 #skills .skill-logo {
-  margin-top: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 40px;
-  margin-left: 30px;
+  margin: 0 auto;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
   gap: 30px;
-  justify-content: space-between;
+  justify-content: center;
+  margin-top: 50px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+#skills .skill-logo .logo-container {
+  position: relative;
+  margin: 10px;
+}
+#skills .skill-logo .logo-container .logo-name {
+  position: absolute;
+  bottom: 10px; /* Position it above the bottom of the container */
+  left: 50%;
+  transform: translateX(-50%); /* Center the text */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white; /* Text color */
+  padding: 5px 10px; /* Padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  opacity: 0; /* Start hidden */
+  transition: opacity 0.3s ease;
+}
+#skills .skill-logo .logo-container:hover {
+  transform: scale(1.1);
+}
+#skills .skill-logo .logo-container:hover .logo-name {
+  opacity: 1; /* Show the text on hover */
+}
+#skills .skill-logo.visible {
+  opacity: 1;
+  transform: translateY(0);
 }/*# sourceMappingURL=style.css.map */
