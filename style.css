@@ -173,4 +173,10 @@ body {
 #skills .skill-logo.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+#contact .container h1 {
+  font-size: 45px;
+  color: #8b5943;
+  font-weight: 900;
 }/*# sourceMappingURL=style.css.map */
