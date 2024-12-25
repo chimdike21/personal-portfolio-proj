@@ -93,8 +93,7 @@ body {
 
 .intro-ish {
   text-align: center;
-  margin-top: 150px;
-  margin-bottom: 100px;
+  margin-top: 250px;
 }
 .intro-ish h1 {
   font-size: 45px;
@@ -118,16 +117,17 @@ body {
 }
 #about .about-me h1 {
   text-align: center;
-  font-size: 35px;
+  font-size: 45px;
   color: #8b5943;
   font-weight: 900;
+  margin-bottom: 40px;
 }
 #about .about-me p {
   margin-top: 40px;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 30px;
   margin: 0 30px 20px 90px;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 #skills {
