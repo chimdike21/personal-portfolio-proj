@@ -344,4 +344,10 @@ body {
 }
 #contact .socials ul li {
   list-style: none;
+}
+
+@media not (min-width: 1023px) {
+  body {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
