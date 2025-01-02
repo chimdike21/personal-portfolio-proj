@@ -136,14 +136,14 @@ body {
 }
 #skills .skillset h2 {
   color: #8b5943;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 900;
   text-align: center;
 }
 #skills .skillset p {
   margin-top: 40px;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 30px;
   text-align: center;
 }
@@ -276,7 +276,7 @@ body {
   margin-top: 20px;
   text-decoration: none;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 900;
   color: #8b5943;
   display: inline-flex;
 }
@@ -296,7 +296,7 @@ body {
   align-items: center; /* Center items horizontally */
   text-align: center; /* Center text */
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 250px;
 }
 #contact .container {
   margin-bottom: 30px;
@@ -325,8 +325,12 @@ body {
 #contact .container h3 a:hover {
   color: #8b5943; /* Change this to your desired hover color */
 }
+#contact .socials {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
 #contact .socials h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 900;
 }
 #contact .socials ul {
