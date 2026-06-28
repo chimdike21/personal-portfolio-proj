@@ -1,0 +1,24 @@
+body {
+    font-family: 'YourFontFamily', sans-serif; /* Replace 'YourFontFamily' with the actual font family used in your HTML */
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #333; /* Set the text color */
+    line-height: 1.5; /* Set the line height */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'YourFontFamily', sans-serif; /* Ensure headings use the same font */
+    color: #222; /* Set heading color */
+}
+
+p {
+    margin: 0 0 1em; /* Set paragraph margin */
+}
+
+a {
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
