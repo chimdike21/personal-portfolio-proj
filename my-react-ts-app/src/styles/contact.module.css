@@ -1,0 +1,45 @@
+/* filepath: /src/styles/contact.module.css */
+.contactContainer {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.contactTitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contactEmail {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.socials {
+    margin-top: 20px;
+}
+
+.socials h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.socialLinks img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.socialLinks img:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,18 @@
+
+.intro {
+    text-align: center;
+    padding: 150px 20px;
+    background-color: #f4f4f4;
+}
+
+.intro h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.intro h2 {
+    font-size: 24px;
+    color: #555;
+}
