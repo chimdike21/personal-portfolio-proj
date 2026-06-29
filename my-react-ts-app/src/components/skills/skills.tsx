@@ -1,4 +1,3 @@
-// filepath: /src/components/skills.tsx
 import React from 'react';
 import styles from './skills.module.css';
 
@@ -12,14 +11,14 @@ const Skills: React.FC = () => {
             <div className={styles.skillLogo}>
                 <div className={styles.logoContainer} data-name="HTML5">
                     <img
-                        src="assets/html-5-logo-svgrepo-com.svg"
-                        height="200px"
-                        width="200px"
+                        src="/assets/html-5-logo-svgrepo-com.svg"
+                        height={200}
+                        width={200}
                         alt="HTML5"
                     />
                     <span className={styles.logoName}>HTML5</span>
                 </div>
-                {/* Repeat for other skills */}
+                {/* Add more skills here */}
             </div>
         </section>
     );

@@ -6,7 +6,7 @@ const About: React.FC = () => {
         <section id="about">
             <div className={styles.aboutMe}>
                 <h1>About Me</h1>
-                <p>
+                <p className={styles.aboutText}>
                     My name is Chimdike Divine Nwachukwu. I am an innovative and detail-oriented individual...
                 </p>
             </div>

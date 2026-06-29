@@ -1,0 +1,31 @@
+.skills {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.skillset {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skillLogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logoContainer {
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.logoContainer:hover {
+    transform: scale(1.1);
+}
+
+.logoName {
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
